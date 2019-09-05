@@ -7,7 +7,7 @@ public static void main(String[] args){
 	System.out.print("Enter your height in metres ");
 	int bodyHeight = input.nextInt();
 	int bMI = bodyWeight/(bodyHeight * bodyHeight);
-	System.out.printf("Your Body Mass Index (BMI) is %d\n\n",bMI);
+	System.out.printf("Your Body Mass Index (BMI) is %d%n",bMI);
 
 	System.out.println ("BMI VALUES");
         System.out.println ("Underweight: less than 18.5");
